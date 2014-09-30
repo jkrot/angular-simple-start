@@ -4,19 +4,20 @@ angular-simple-start
 This is my base project for working on Angular projects.  I also include setup information for development enviroments for most major operating systems.  
 
 The techstack for this project is 
--AngularJS
--CoffeeScript
--SASS/SCSS
--JQuery (only for testing)
+ 
+ - AngularJS
+ - CoffeeScript
+ - SASS/SCSS
+ - JQuery (only for testing)
 
 # Installation Instructions
 
--Install Node
--Install Git
--(Windows Only) Install Console2 and configure it to use powershell plus posh-git
--(Mac/Unix/Linux Only) Install bash-completition & posh-git-sh
--Install Bower
--Install or use IDE/Editor of your choice
+ - Install Node
+ - Install Git
+ - (Windows Only) Install Console2 and configure it to use powershell plus posh-git
+ - (Mac/Unix/Linux Only) Install bash-completition & posh-git-sh
+ - Install Bower
+ - Install or use IDE/Editor of your choice
 
 ## Installing Node
 Node can be found at nodejs.org/download or you can follow the guide below or if you want to install from Cygwin or if you are on a non-windows system.
