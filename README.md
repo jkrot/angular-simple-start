@@ -15,13 +15,12 @@ The techstack for this project is
  - Install Node
  - Install Git
  - (Windows Only) Install Console2 and configure it to use powershell plus posh-git
- - (Mac/Unix/Linux Only) Install bash-completition & posh-git-sh
+ - (Mac Only) Install bash-completition & posh-git-sh
  - Install Bower
  - Install or use IDE/Editor of your choice
 
 ## Installing Node
-Node can be found at nodejs.org/download or you can follow the guide below or if you want to install from Cygwin or if you are on a non-windows system.
-http://howtonode.org/how-to-install-nodejs
+Node can be found at http://nodejs.org/download
 
 
 ## Install Git
@@ -57,19 +56,17 @@ This gives you some great powershell intergration and really helps with using gi
 Since you have access to either console2 now or a command prompt you can install bower now.  Using the g option makes it global.  You might need to install it locally as well then you run the same command without the -g
 npm install -g bower
 
-## Mac/Unix/Linux
+## Mac
 
 ### Enviroment Variables
 With the Mavricks update this process has become more complicated.  If you have zero experience with updating your path variables I suggest reading over http://stackoverflow.com/questions/7501678/set-environment-variables-on-mac-osx-lion
 
+### Install Brew
+You need to install brew which is a package manager for the MAC OSX.  You will also need to install ruby before installing brew.  http://rubyonrails.org/download/ then http://brew.sh/
+
 ### Bash Completion 
-You need to install bash-completion found at
-https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
 
-Then follow the instructions on this stack overflow article for setting the the configurations to get the same effect.
-http://stackoverflow.com/questions/12433165/is-there-a-posh-git-equivalent-for-the-mac
-
-You can install a shell script that is basically a port of posh-git for mac/unix/linux found below. The link is also found in the stackoverflow article.
+You can install a shell script that is basically a port of posh-git for mac/unix/linux found below.
 https://github.com/lyze/posh-git-sh
 
 ### Install Bower
@@ -77,4 +74,4 @@ Now that your command line is setup you can install bower and resolve your bower
 npm install -g bower
 
 ## Install or Use your Preferred Editor
-I recommend you use sublime text editor but there are many good editors out there.  A .editorconfig file is included so that you can use the default formatting that I recommend.  See editorconfig.org for more info.
+I recommend you use sublime text editor 3 but there are many good editors out there.  A .editorconfig file is included so that you can use the default formatting that I recommend.  See editorconfig.org for more info.
