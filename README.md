@@ -21,10 +21,11 @@ The techstack for this project is
 
 ## Installing Node
 Node can be found at http://nodejs.org/download
-
+If you are on a Mac you may want to use Node Version Manager https://github.com/creationix/nvm  
 
 ## Install Git
 You can go to http://git-scm.com/downloads and get git for any os.
+If you are on a mac you may just want to install with brew.  
 
 ## Windows
 
@@ -62,7 +63,7 @@ npm install -g bower
 With the Mavricks update this process has become more complicated.  If you have zero experience with updating your path variables I suggest reading over http://stackoverflow.com/questions/7501678/set-environment-variables-on-mac-osx-lion
 
 ### Install Brew
-You need to install brew which is a package manager for the MAC OSX.  You will also need to install ruby before installing brew.  http://rubyonrails.org/download/ then http://brew.sh/
+You need to install brew which is a package manager for the MAC OSX.  You will also need to install ruby before installing brew.  http://guides.rubyonrails.org/getting_started.html then http://brew.sh/
 
 ### Bash Completion 
 
