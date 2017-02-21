@@ -26,13 +26,20 @@ If you are on a Mac you may want to use Node Version Manager https://github.com/
 ## Install Git
 You can go to http://git-scm.com/downloads and get git for any os.
 If you are on a mac you may just want to install with brew.  
+I find nano to be the easiest edit to use with git commit commands however it defaults to VIM if you are used to it.
+git config --global core.editor "nano"  
 
 ## Windows
+
+### Install Nano
+https://sourceforge.net/projects/nano/
+Remember to add the path for nano to your Enviroment Variables, there are instructions to install in the readme, basically you just need to copy a few files
 
 ### Enviroment Variables
 Control Panel - System - Advanced - Environment Variables make sure you path is set to your node_modules folder
 Based on my user profile but you can get a good idea of the path you need to at this point.
 C:\Users\jkrot\AppData\Roaming\npm;C:\Users\jkrot\AppData\Roaming\npm\node_modules
+You need to restart for these changes to take place
 
 ### Install Console2
 Though not technically required it gives you a ton of configuration options that make your life easier.  In a pinch you can just use a normal powershell console.  Console 2 can be downloaded from sourceforge at the following url
@@ -63,10 +70,9 @@ npm install -g bower
 With the Mavricks update this process has become more complicated.  If you have zero experience with updating your path variables I suggest reading over http://stackoverflow.com/questions/7501678/set-environment-variables-on-mac-osx-lion
 
 ### Install Brew
-You need to install brew which is a package manager for the MAC OSX.  You will also need to install ruby before installing brew.  http://guides.rubyonrails.org/getting_started.html then http://brew.sh/
+You need to install brew which is a package manager for the MAC OSX.  You will also need to install ruby before installing brew, typically you install ruby by installing xcode if you haven't already.  http://brew.sh/
 
 ### Bash Completion 
-
 You can install a shell script that is basically a port of posh-git for mac/unix/linux found below.
 https://github.com/lyze/posh-git-sh
 
